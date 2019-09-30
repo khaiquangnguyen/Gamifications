@@ -9,6 +9,9 @@ Project management board: https://bucknell-global.monday.com/boards/335985168
 
 - The details of each project will be included in the README.md of each project.
 
+- All documents related to a project will be included in the repo of that project, preferably markdown files so that
+the files can be easily accessed. Files too big to be pushed to the repo but needs to be available online can be stored elsewhere with a link pointing to that file saved to a markdown file in the project folder.
+
 #### Collaboration method
 ###### General idea
 Each task has one **Owner** (the person who performs the task) and one or more **Reviewer** (the person who reviews the task before mark it as completion).
