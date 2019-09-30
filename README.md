@@ -30,7 +30,7 @@ The reviewer(s) is responsible for reviewing the result, providing feedback and 
 #### Structure
 On the project management [board](https://bucknell-global.monday.com/boards/335985168),
 each task will have three fields: 
-- **Owner**  - the person who performs the task
+- **Owner**  - the person who performs the task.
 - **Status** - the status of the task. 
 - **Reviewers** - people who will review the task.
 
