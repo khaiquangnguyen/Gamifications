@@ -33,7 +33,8 @@ each task will have three fields:
 - **Owner**  - the person who performs the task
 - **Status** - the status of the task. 
 - **Reviewers** - people who will review the task.
----
+
+#### Rules
 - Any person can set up a task and choose the *Reviewer(s)* and *Owner* . 
 - Only the *Owner* can choose the deadline. The *Owner* can also change the *Reviwer(s)*.
 - Each task should be small, ideally completable within a day's time. This depends on how much time the *Owner* can invest in each day.
