@@ -8,6 +8,15 @@ This is a collaborative project between
 [Khoi Le](https://github.com/lak231) and 
 [Hang Ha](https://github.com/hth003). 
 
+## Motivation and values
+###### What are the motivations of each member when joining this project? a.k.a why do we do this?
+#### Khai Nguyen
+- To create products which are simple, useful and really fun to use
+- To practice coding, project management, and learn more game and design-oriented skills
+- To explore the potential of certain ideas
+- To spend time doing something useful instead of playing games
+#### Khoi Le
+#### Hang Ha
 ## Links
 ###### All links related to the project is here
 - Project management board: https://bucknell-global.monday.com/boards/335985168
