@@ -12,13 +12,16 @@ This is a collaborative project between
 ###### All links related to the project is here
 - Project management board: https://bucknell-global.monday.com/boards/335985168
 - Link to website: https://khaiquangnguyen.github.io/Gamifications/
+- Shared google drive https://drive.google.com/drive/u/1/folders/135qfQi5Qr5v03Eyo9y3DNXC_g-Uj4ecY
 ## Directory structure
 - Each subfolder of the **/Gamficiations** folder will represent a project.
 
 - The details of each project will be included in the README.md of each project.
 
-- All documents related to a project will be included in the repo of that project, preferably markdown files so that
-the files can be easily accessed. Files too big to be pushed to the repo but needs to be available online can be stored elsewhere with a link pointing to that file saved to a markdown file in the project folder.
+- All importants text documents related to a project should be included in the repo of that project, preferably markdown files so that
+the files can be easily accessed and found.  
+- Larger files can be stored in the google drive folder
+- Files stored elsewhere should have a link pointing to that file saved to a markdown file in the project folder.
 
 ## Collaboration method
 ### General idea
