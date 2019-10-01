@@ -17,7 +17,6 @@ Chrome extension
 ##### Frameworks/library
 [Finish the content here - Vue, React, or anything else more suitable for extension?] (Khoi)
 ##### Design tools 
-[ Finish the content here - Any tools you use or anything that can give us access to your work? ] (Hang Ha)
-I use Procreate for most of my concept arts. I will upload files to Drive so others can access my works. For collaborative design we can use Figma.
-
+- I use Procreate for most of my concept arts. I will upload files to Drive so others can access my works. For collaborative design we can use Figma.
+- Create sketches of the design in Figma, and then slowly replace components with art pieces
  
