@@ -18,7 +18,7 @@ This is a collaborative project between
 #### Khoi Le
 #### Hang Ha
 - To work on meaningful and fun projects with my best friends 
-- To learn design workflow
+- To learn the design workflow
 - To improve and expand my skillset (drawing and designing)
 ## Links
 ###### All links related to the project is here
