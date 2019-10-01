@@ -17,6 +17,9 @@ This is a collaborative project between
 - To spend time doing something useful instead of playing games
 #### Khoi Le
 #### Hang Ha
+- To work on meaningful and fun projects with my best friends 
+- To learn design workflow
+- To improve and expand my skillset (drawing and designing)
 ## Links
 ###### All links related to the project is here
 - Project management board: https://bucknell-global.monday.com/boards/335985168
