@@ -6,16 +6,15 @@
 - Project management board: https://bucknell-global.monday.com/boards/335985168
 ## Specs
 ### Platform
-Chrome extension 
-[ Anything else] (Khoi)
+Chrome extension
 
 ### Tools 
 #### Tech stacks 
 
 ##### Language
-[Finish the content here - The programming language to use (Javascript, Coffeescript, or Typescript?)] (Khoi)
+Javascript, CSS, HTML
 ##### Frameworks/library
-[Finish the content here - Vue, React, or anything else more suitable for extension?] (Khoi)
+React, TypeScript, SASS
 ##### Design tools 
 - I use Procreate for most of my concept arts. I will upload files to Drive so others can access my works. For collaborative design we can use Figma.
 - Create sketches of the design in Figma, and then slowly replace components with art pieces
