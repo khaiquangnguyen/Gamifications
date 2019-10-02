@@ -24,11 +24,13 @@ This is a collaborative project between
 - To work on meaningful and fun projects with my best friends 
 - To learn the design workflow
 - To improve and expand my skillset (drawing and designing)
+
 ## Links
 ###### All links related to the project is here
-- Project management board: https://bucknell-global.monday.com/boards/335985168
-- Link to website: https://khaiquangnguyen.github.io/Gamifications/
-- Shared google drive https://drive.google.com/drive/u/1/folders/135qfQi5Qr5v03Eyo9y3DNXC_g-Uj4ecY
+- Project management board: <https://bucknell-global.monday.com/boards/335985168>
+- Link to website: <https://khaiquangnguyen.github.io/Gamifications/>
+- Shared google drive <https://drive.google.com/drive/u/1/folders/135qfQi5Qr5v03Eyo9y3DNXC_g-Uj4ecY>
+
 ## Directory structure
 - Each subfolder of the **/Gamficiations** folder will represent a project.
 
