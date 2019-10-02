@@ -15,9 +15,11 @@ This is a collaborative project between
 - To practice coding, project management, and learn more game and design-oriented skills
 - To explore the potential of certain ideas
 - To spend time doing something useful instead of playing games
+
 #### Khoi Le
 - To practice, learn more about, and become interested [again](https://www.youtube.com/watch?v=I5sJhSNUkwQ "before my day job kills my soul") in the mess that is front-end development (and also coding and software/game development)
 - To spend meaningful and enjoyable time with friends
+
 #### Hang Ha
 - To work on meaningful and fun projects with my best friends 
 - To learn the design workflow
