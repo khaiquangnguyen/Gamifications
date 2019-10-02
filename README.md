@@ -33,9 +33,7 @@ This is a collaborative project between
 
 ## Directory structure
 - Each subfolder of the **/Gamficiations** folder will represent a project.
-
 - The details of each project will be included in the README.md of each project.
-
 - All importants text documents related to a project should be included in the repo of that project, preferably markdown files so that
 the files can be easily accessed and found.  
 - Larger files can be stored in the google drive folder
@@ -62,11 +60,8 @@ each task will have three fields:
 
 #### Process
 - When the *Owner* starts working on a project, changes the status of that project to *Working on it*.
-
 - If the *Owner* is stuck and requires more time to complete the task, change the status to *Stucked*. The system will automatically extends the deadline
-
 - If the *Owner* believes they has completed the task, change the status to *Waiting for Review*. 
-
 - If change to *Waiting for Review*, then the system will inform the Reviewer(s) to review the task.
 
 
