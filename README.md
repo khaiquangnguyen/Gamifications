@@ -1,5 +1,8 @@
 # Gamifications
-A repo of all collaborative projects about gamifications
+A repo of all collaborative projects about gamifications.
+The goal of this project is to gamify some of the more simple and 
+traditional software through visuals and arts. Basically, to make simple softwares
+and apps look beautiful like games, using game arts and styles.
 
 ## Collaborators
 
