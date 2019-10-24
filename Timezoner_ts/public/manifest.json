@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Timezoner",
+  "description": "This extension allows you to track the timezone of people",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  }
+}
