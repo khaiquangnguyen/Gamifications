@@ -8542,6 +8542,11 @@ react-error-overlay@^6.0.3:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.3.tgz#c378c4b0a21e88b2e159a3e62b2f531fd63bf60d"
   integrity sha512-bOUvMWFQVk5oz8Ded9Xb7WVdEi3QGLC8tH7HmYP0Fdp4Bn3qw0tRFmr5TW6mvahzvmrK4a6bqWGfCevBflP+Xw==
 
+react-flag-kit@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/react-flag-kit/-/react-flag-kit-0.3.1.tgz#31f93c26d50c8915d27c46f76a34e37aa8a7b164"
+  integrity sha512-mxbw6tF0JVHqsIP4s70LaqhLtAF3utljg2h9/cVLewoYhJNx52byQAerXO1jnnOIMOh717u31Y4c1lEyfpB3BQ==
+
 react-icons@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.7.0.tgz#64fe46231fabfeea27895edeae6c3b78114b8c8f"
