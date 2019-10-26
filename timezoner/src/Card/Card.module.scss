@@ -39,8 +39,8 @@
 }
 
 .Light {
-  $background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  $primaryColor: #2F80ED;
+  $background: linear-gradient(to top, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  $primaryColor: #6dd5fa;
   $glowColor:#F9F871;
   $textColor: #040404;
   @include theme($background,$primaryColor,$textColor,$glowColor);
@@ -48,9 +48,9 @@
     display: none;
   }
   .Avatar {
-    box-shadow: 0 0 10px 20px transparentize($glowColor, 0.1),
-    0 0 10px 35px transparentize($glowColor, 0.6),
-    0 0 10px 60px transparentize($glowColor, 0.85);
+    box-shadow: 0 0 0px 20px transparentize($glowColor, 0),
+    0 0 5px 35px transparentize($glowColor, 0.4),
+    0 0 10px 60px transparentize($glowColor, 0.8);
   }
 }
 
