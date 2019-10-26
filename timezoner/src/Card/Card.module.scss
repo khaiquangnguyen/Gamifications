@@ -1,5 +1,57 @@
 @import '../variables';
 
+@mixin theme($background, $primaryColor, $textColor, $glowColor) {
+  .Container {
+    background: $background;
+    box-shadow: 0 10px 20px transparentize($primaryColor, 0.6), 0 3px 6px transparentize($primaryColor, 0.3);
+  }
+  .Star {
+    background-color: transparentize($textColor, 0.3);
+  }
+  .CountryName {
+    color: transparentize($textColor, 0.1);
+  }
+  .Header {
+    background-color: transparentize($primaryColor, 0.8);
+  }
+  .Avatar {
+    border: 3px solid $primaryColor;
+    box-shadow: 0 0 0 8px transparentize($glowColor, 0.4),0 0 0 21px transparentize($glowColor, 0.45),0 0 0 34px transparentize($glowColor, 0.8),0 0 0 55px transparentize($glowColor, 0.95);
+  }
+  .Name {
+    color: transparentize($textColor, 0.2);
+    background-color: transparentize($primaryColor,0.1);
+  }
+  .TimeZoneBox {
+    color: transparentize($textColor, 0.2);
+  }
+}
+
+.Dark {
+  $background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  $primaryColor: #0F2027;
+  $glowColor:#C5F8FF;
+  $textColor: #fdfdfd;
+  @include theme($background,$primaryColor,$glowColor,$textColor);
+}
+
+.Light {
+  $background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  $primaryColor: #2F80ED;
+  $glowColor:#F9F871;
+  $textColor: #040404;
+  @include theme($background,$primaryColor,$textColor,$glowColor);
+  .Star {
+    display: none;
+  }
+  .Avatar {
+    border: 3px solid $primaryColor;
+    box-shadow: 0 0 10px 20px transparentize($glowColor, 0.2),
+    0 0 0px 40px transparentize($glowColor, 0.7),
+    0 0 0px 70px transparentize($glowColor, 0.9);
+  }
+}
+
 .Container {
   width: 280px;
   height: 420px;
@@ -16,22 +68,13 @@
   opacity: 0.95;
   border-radius: 0.25rem;
   overflow: hidden;
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0 10px 20px rgba(15, 32, 39, 0.4), 0 3px 6px rgba(15, 32, 39, 0.6);
 };
 
 .Star {
   position: absolute;
-  top: random(300) + px;
-  left: random(300) + px;
-  width: 3px;
-  height: 3px;
-  color: white;
   border-radius: 50%;
-  background-color: rgba(255,255,255,0.8);
 }
+
 .Flag {
   height: 1rem;
   display: flex;
@@ -47,7 +90,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgba(97, 242, 245, 0.7);
   font-size: $small_normal_font;
   font-weight: 500;
   font-family: $body_font;
@@ -60,7 +102,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(45, 61, 76, 0.9);
   z-index: 2;
 }
 
@@ -81,11 +122,8 @@
   left: 50%;
   transform: translateX(-50%);
   object-fit: cover;
-  border: 3px solid #240b36;
   opacity: 0.9;
-  box-shadow: 0 0 0 8px rgba(97, 242, 245, 0.6),0 0 0 21px rgba(97, 242, 245, 0.5),0 0 0 34px rgba(97, 242, 245, 0.2),0 0 0 55px rgba(97, 242, 245, 0.05);
 }
-
 
 .Gender {
   position: absolute;
@@ -134,11 +172,8 @@
   text-align: center;
   line-height: 2.5rem;
   border: none;
-  color: rgba(255,255,255,0.85);
-  //color: rgba(97, 242, 245, 0.8);
   border-radius: 1.25rem;
   position: relative;
-  background-color: rgba(15, 32, 39, 1);
 }
 
 .TimeZoneBox {
@@ -150,20 +185,18 @@
   justify-content: center;
   align-items: center;
   font-family: $body_font;
-  color: rgba(255,255,255,0.85);
-  //color: rgba(97, 242, 245, 0.8);
   border-radius: 0.5rem;
 }
 
 .Time {
   font-size: $large_font;
-  font-weight: lighter;
+  font-weight: 600;
   line-height: 1.5;
 }
 
 .Date {
   font-size: $small_normal_font;
-  font-weight: bolder;
+  font-weight: normal;
 }
 .TimeIllustration {
   width: 3.5rem;

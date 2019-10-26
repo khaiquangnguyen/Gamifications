@@ -49,40 +49,49 @@ const Card = ({thumbnail, timeZone, name, country, isMale, role, rating, country
     day: '2-digit',
     month: '2-digit'
   };
+  const getHourOptions = {
+    timeZone:timeZone,
+    hour: 'numeric',
+    hour12: false,
+  };
   const time  = new Date().toLocaleString("en-US", timeOption);
   const date  = new Date().toLocaleString("en-US", DateOption);
-  console.log(timeZone,time, date);
+  const hour = new Date().toLocaleString("en-US", getHourOptions);
+  console.log(hour);
   return (
-    <div className={styles.Container}>
-      {stars}
-      <div className={styles.Header}>
-        <div className={styles.Flag}>
-          <FlagIcon code={country} size={32} />
+    <div className={(6 <= hour && hour <= 18) ? styles.Light: styles.Dark}>
+      <div className={styles.Container}>
+        {stars}
+        <div className={styles.Header}>
+          <div className={styles.Flag}>
+            <FlagIcon code={country} size={32} />
+          </div>
+          <div className={styles.CountryName}>
+            {countryName}
+          </div>
         </div>
-        <div className={styles.CountryName}>
-          {countryName}
+        <div className={styles.ThumbnailSection}>
+          <img className={styles.Avatar} src={thumbnail} alt={name} />
+          {/*<div className={styles.Gender}>*/}
+          {/*  {isMale? <GiMale size='1.5rem' color='#537780'/> : <GiFemale size='1.5rem' color='#537780'/>}*/}
+          {/*</div>*/}
+          {/*<div className={styles.RoleType}>*/}
+          {/*  {role}*/}
+          {/*</div>*/}
         </div>
+        <div className={styles.NameTimeContainer}>
+        <div className={styles.Name}>
+          {name}
+        </div>
+        <div className={styles.TimeZoneBox}>
+          <span className={styles.Time}>{time} </span>
+          <span className={styles.Date}> {date} </span>
+        </div>
+        </div>
+        {/*/!*<div className={styles.TimeIllustration} />*!/*/}
       </div>
-      <div className={styles.ThumbnailSection}>
-        <img className={styles.Avatar} src={thumbnail} alt={name} />
-        {/*<div className={styles.Gender}>*/}
-        {/*  {isMale? <GiMale size='1.5rem' color='#537780'/> : <GiFemale size='1.5rem' color='#537780'/>}*/}
-        {/*</div>*/}
-        {/*<div className={styles.RoleType}>*/}
-        {/*  {role}*/}
-        {/*</div>*/}
-      </div>
-      <div className={styles.NameTimeContainer}>
-      <div className={styles.Name}>
-        {name}
-      </div>
-      <div className={styles.TimeZoneBox}>
-        <span className={styles.Time}>{time} </span>
-        <span className={styles.Date}> {date} </span>
-      </div>
-      </div>
-      {/*/!*<div className={styles.TimeIllustration} />*!/*/}
-    </div>)
+    </div>
+      )
 };
 
 Card.propTypes = propTypes;
