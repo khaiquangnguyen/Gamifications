@@ -15,8 +15,11 @@
     background-color: transparentize($primaryColor, 0.8);
   }
   .Avatar {
-    border: 3px solid $primaryColor;
-    box-shadow: 0 0 0 8px transparentize($glowColor, 0.4),0 0 0 21px transparentize($glowColor, 0.45),0 0 0 34px transparentize($glowColor, 0.8),0 0 0 55px transparentize($glowColor, 0.95);
+    border: 4px solid transparentize(#424656, 0.1);
+    box-shadow: 0 0 0 8px transparentize($glowColor, 0.4),
+    0 0 0 21px transparentize($glowColor, 0.45),
+    0 0 0 34px transparentize($glowColor, 0.8),
+    0 0 0 55px transparentize($glowColor, 0.95);
   }
   .Name {
     color: transparentize($textColor, 0.2);
@@ -45,10 +48,9 @@
     display: none;
   }
   .Avatar {
-    border: 3px solid $primaryColor;
-    box-shadow: 0 0 10px 20px transparentize($glowColor, 0.2),
-    0 0 0px 40px transparentize($glowColor, 0.7),
-    0 0 0px 70px transparentize($glowColor, 0.9);
+    box-shadow: 0 0 10px 20px transparentize($glowColor, 0.1),
+    0 0 10px 35px transparentize($glowColor, 0.6),
+    0 0 10px 60px transparentize($glowColor, 0.85);
   }
 }
 
