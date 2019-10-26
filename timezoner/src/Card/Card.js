@@ -58,13 +58,18 @@ const Card = ({thumbnail, timeZone, name, country, isMale, role, rating, country
   const date  = new Date().toLocaleString("en-US", DateOption);
   const hour = new Date().toLocaleString("en-US", getHourOptions);
   console.log(hour);
+  const style = (() => {
+    if (6 <= hour && hour <= 18) return styles.Day;
+    if (18 < hour && hour <= 24) return styles.Night;
+    return styles.Midnight;
+  })();
   return (
-    <div className={(6 <= hour && hour <= 18) ? styles.Light: styles.Dark}>
+    <div className={style}>
       <div className={styles.Container}>
         {stars}
         <div className={styles.Header}>
           <div className={styles.Flag}>
-            <FlagIcon code={country} size={32} />
+            <FlagIcon code={country} size={20} />
           </div>
           <div className={styles.CountryName}>
             {countryName}
